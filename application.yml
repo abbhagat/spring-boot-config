@@ -2,10 +2,18 @@ spring:
   datasource:
     url: jdbc:oracle:thin:@localhost:1521:XE
     driver-class-name: oracle.jdbc.driver.OracleDriver
-    username: HR
-    password: hr
-
+    username: V705417
+    password: V705417
+  session:
+    store-type: jdbc
+    jdbc:
+      initialize-schema: always
+    timeout:
+      seconds: 900
   jpa:
+    properties:
+      hibernate:
+        format_sql: true
     show-sql: true
     hibernate:
       ddl-auto: update
@@ -13,10 +21,4 @@ spring:
   jooq:
     sql-dialect: org.hibernate.dialect.Oracle10gDialect
 
-logging:
-  pattern:
-    console: "%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n"
-
-  level:org:hibernate:
-    SQL: debug
-    type:descriptor:sql: trace
+logging:pattern:console: "%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n"
