@@ -21,4 +21,13 @@ spring:
   jooq:
     sql-dialect: org.hibernate.dialect.Oracle10gDialect
 
-logging:pattern:console: "%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n"
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n"
+  level:
+    org:
+      hibernate:
+        SQL: debug
+      type:
+        descriptor:
+          sql: trace
