@@ -4,16 +4,11 @@ spring:
     driver-class-name: oracle.jdbc.driver.OracleDriver
     username: V705417
     password: V705417
-  session:
-    store-type: jdbc
-    jdbc:
-      initialize-schema: always
-    timeout:
-      seconds: 900
   jpa:
     properties:
       hibernate:
         format_sql: true
+        enable_lazy_load_no_trans: true
     show-sql: true
     hibernate:
       ddl-auto: update
@@ -24,3 +19,15 @@ spring:
 logging:
   pattern:
     console: "%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n"
+  level:
+    org:
+      hibernate:
+        SQL: debug
+      type:
+        descriptor:
+          sql: trace
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
