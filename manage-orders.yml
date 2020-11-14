@@ -7,4 +7,4 @@ management:
       exposure:
         include: "*"
   server:
-    port: 8891
+    port: 8892
