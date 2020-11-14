@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: manage-orders
+  cloud:
+    config:
+      uri: "http://localhost:8888/"
+
+server:
+  port: 8083
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  server:
+    port: 8891
