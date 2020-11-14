@@ -31,3 +31,9 @@ eureka:
   client:
     fetch-registry: true
     register-with-eureka: true
+
+log4j:
+  logger:
+    org:
+      hibernate:
+        type: trace
