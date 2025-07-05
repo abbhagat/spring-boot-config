@@ -38,4 +38,4 @@ log4j:
       hibernate:
         type: trace
 dynamic:
-  prop: dynamic-prop
+  prop: dynamic-prop-new
