@@ -1,31 +1,31 @@
 product:
   config:
     items:
-      -  productID: 1
-         costPrice: 100
-         createdBy: abhinawb
-         createdDate: 2025-07-06 19:59:59
-         description: Pen
-         lastModifiedBy: abhinawb
-         lastModifiedDate: 2025-07-06 20:00:15
-         productCategory: Stationary
-         productName: Pilot Pen
-         quantityAvailable: 100
-         sellPrice: 150
-         status: Y
-         uomID: 1
-         version: 0
-      -  productID: 2
-         costPrice: 100
-         createdBy: abhinawb
-         createdDate: 2025-07-06 19:59:59
-         description: Pencil
-         lastModifiedBy: abhinawb
-         lastModifiedDate: 2025-07-06 20:00:15
-         productCategory: Stationary
-         productName: Black Pencil
-         quantityAvailable: 100
-         sellPrice: 150
-         status: Y
-         uomID: 1
-         version: 0
+      - productID: 1
+        costPrice: 100
+        createdBy: abhinawb
+        createdDate: 2025-07-06 19:59:59
+        description: Pen
+        lastModifiedBy: abhinawb
+        lastModifiedDate: 2025-07-06 20:00:15
+        productCategory: Stationary
+        productName: Pilot Pen
+        quantityAvailable: 100
+        sellPrice: 150
+        status: Y
+        uomID: 1
+        version: 0
+      - productID: 2
+        costPrice: 100
+        createdBy: abhinawb
+        createdDate: 2025-07-06 19:59:59
+        description: Pencil
+        lastModifiedBy: abhinawb
+        lastModifiedDate: 2025-07-06 20:00:15
+        productCategory: Stationary
+        productName: Black Pencil
+        quantityAvailable: 100
+        sellPrice: 150
+        status: Y
+        uomID: 1
+        version: 0
