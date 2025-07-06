@@ -9,6 +9,7 @@ spring:
       hibernate:
         format_sql: true
         enable_lazy_load_no_trans: true
+        dialect: org.hibernate.dialect.Oracle10gDialect
     show-sql: true
     hibernate:
       ddl-auto: update
