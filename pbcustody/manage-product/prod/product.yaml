@@ -3,10 +3,10 @@ product:
     - productId: 1
       costPrice: 100
       createdBy: abhinawb
-      createdDate: 2025-07-06
+      createdDate: 2025-07-06 19:59:59
       description: Pen
       lastModifiedBy: abhinawb
-      lastModifiedDate: 2025-07-06
+      lastModifiedDate: 2025-07-06 20:00:15
       productCategory: Stationary
       productName: Pilot Pen
       quantityAvailable: 100
@@ -17,10 +17,10 @@ product:
     - productId: 2
       costPrice: 100
       createdBy: abhinawb
-      createdDate: 2025-07-06
+      createdDate: 2025-07-06 19:59:59
       description: Pencil
       lastModifiedBy: abhinawb
-      lastModifiedDate: 2025-07-06
+      lastModifiedDate: 2025-07-06 20:00:15
       productCategory: Stationary
       productName: Black Pencil
       quantityAvailable: 100
