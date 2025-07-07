@@ -9,7 +9,7 @@ product:
       lastModifiedDate: 2025-07-06
       productCategory: Stationary
       productName: Pilot Pen
-      quantityAvailable: 100
+      quantityAvailable: 500
       sellPrice: 150
       status: Y
       uomId: 1
@@ -23,7 +23,7 @@ product:
       lastModifiedDate: 2025-07-06
       productCategory: Stationary
       productName: Black Pencil
-      quantityAvailable: 300
+      quantityAvailable: 500
       sellPrice: 150
       status: Y
       uomId: 1
